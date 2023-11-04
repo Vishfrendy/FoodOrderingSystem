@@ -55,13 +55,13 @@ public class MainActivity2 extends AppCompatActivity implements NavigationView.O
         setContentView(binding.getRoot());
 
         ArrayList<MainModel> list=new ArrayList<>();
-        list.add(new MainModel(R.drawable.masaladose,"Masala dosa","4"));
-        list.add(new MainModel(R.drawable.buns,"Buns","2"));
-        list.add(new MainModel(R.drawable.friedrice,"Fried rice","6"));
-        list.add(new MainModel(R.drawable.gobi,"Gobi Manchurian","8"));
-        list.add(new MainModel(R.drawable.pavbhaji,"Pav bhaji","3"));
-        list.add(new MainModel(R.drawable.sevpuri,"Sev puri","3"));
-        list.add(new MainModel(R.drawable.watermelon,"Watermelon juice","5"));
+        list.add(new MainModel(R.drawable.chickenchop,"Chicken Chop","8"));
+        list.add(new MainModel(R.drawable.fishandchips,"Fish and Chips","8"));
+        list.add(new MainModel(R.drawable.friedrice,"Fried rice","5"));
+        list.add(new MainModel(R.drawable.nasilemak,"Nasi Lemak","2"));
+        list.add(new MainModel(R.drawable.nasigorengpaprik,"Nasi Goreng Paprik","7"));
+        list.add(new MainModel(R.drawable.nescafeais,"Nescafe Ais","2"));
+        list.add(new MainModel(R.drawable.watermelonjuice,"Watermelon juice","5"));
         MainAdapter adapter = new MainAdapter(list,this);
         binding.recyclerView.setAdapter(adapter);
         LinearLayoutManager layoutManager=new LinearLayoutManager(this);

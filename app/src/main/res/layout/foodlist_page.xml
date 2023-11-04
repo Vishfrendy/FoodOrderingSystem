@@ -31,7 +31,7 @@
                 android:layout_weight="1"
                 android:contentDescription="TODO"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/masaladose" />
+                app:srcCompat="@drawable/chickenchop" />
 
             <LinearLayout
                 android:layout_width="match_parent"
