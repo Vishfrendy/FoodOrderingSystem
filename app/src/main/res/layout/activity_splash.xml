@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/white">
+
+    <TextView
+        android:id="@+id/college"
+        android:layout_above="@id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Darpa College"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/foodlogo" />
+
+    <TextView
+        android:layout_below="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Food Ordering System"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"/>
+
+</RelativeLayout>
+
+<!--<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:orientation="vertical"
+    tools:context=".splash">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp"
+        android:scaleX="1.2"
+        android:scaleY="1.2"
+        app:srcCompat="@drawable/logooooo" />
+
+    <ImageView
+        android:id="@+id/hp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/happyplates" />
+
+    <ImageView
+        android:id="@+id/slogan"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:scaleY="1.2"
+        app:srcCompat="@drawable/slogan" />
+
+</LinearLayout>-->
