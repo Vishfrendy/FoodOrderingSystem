@@ -2,12 +2,7 @@ package com.example.mycanteen;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.Window;
-import android.widget.Toast;
-
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,16 +10,11 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.recyclerview.widget.LinearLayoutManager;
-
 import com.example.mycanteen.Adapters.MainAdapter;
 import com.example.mycanteen.Models.MainModel;
 import com.example.mycanteen.databinding.ActivityMain2Binding;
 import com.google.android.material.navigation.NavigationView;
-
-
 import java.util.ArrayList;
-
-import static com.example.mycanteen.Adapters.MainAdapter.orderid;
 import static com.example.mycanteen.loginJava.LOGINEMAIL;
 import static com.example.mycanteen.signupJava.SIGNUPEMAIL;
 
@@ -98,15 +88,12 @@ public class MainActivity2 extends AppCompatActivity implements NavigationView.O
                 break;
             case R.id.nav_profile:
                 Intent intent=new Intent(MainActivity2.this,accountJava.class);
-
                 startActivity(intent);
                 break;
             case R.id.nav_logout:
                 Intent intent3=new Intent(MainActivity2.this,MainActivity.class);
                 startActivity(intent3);
-
                 break;
-
         }
         drawerLayout.closeDrawer(GravityCompat.START);
 

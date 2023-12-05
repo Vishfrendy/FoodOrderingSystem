@@ -1,7 +1,6 @@
 package com.example.mycanteen.Adapters;
 
 import android.content.Context;
-import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,22 +8,14 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-
 import com.cepheuen.elegantnumberbutton.view.ElegantNumberButton;
-import com.example.mycanteen.MainActivity2;
 import com.example.mycanteen.Models.MainModel;
 import com.example.mycanteen.R;
-import com.example.mycanteen.cartJava;
 import com.example.mycanteen.orderDBhelper;
-import com.example.mycanteen.signupJava;
-
 import java.util.ArrayList;
-
 import static com.example.mycanteen.MainActivity2.EMAIL;
-import static java.security.AccessController.getContext;
 
 public class MainAdapter extends RecyclerView.Adapter<MainAdapter.viewholder>{
     public static int orderid=1;
@@ -91,7 +82,7 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.viewholder>{
                         Boolean res=OrderDB.insertOrder(orderid,emailId,Itemname,Price,Quantity);
                         if(res==true)
                         {
-                            Toast.makeText(view.getContext(),"Order added to cart",Toast.LENGTH_LONG).show();
+                            Toast.makeText(view.getContext(), mainName.getText().toString() + " added to cart", Toast.LENGTH_LONG).show();
                         }
                         else
                         {
@@ -99,8 +90,6 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.viewholder>{
                         }
 
                     }
-
-
 
                 }
             });

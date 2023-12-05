@@ -5,6 +5,7 @@
             android:id="@+id/nav_home"
             android:icon="@drawable/homeee"
             android:title="Home" />
+
         <item
             android:id="@+id/nav_cart"
             android:icon="@drawable/carttt"
@@ -22,13 +23,9 @@
                         android:id="@+id/nav_logout"
                         android:icon="@drawable/logoutt"
                         android:title="Logout" />
-
                 </group>
             </menu>
         </item>
 
-
-
     </group>
-
 </menu>

@@ -11,10 +11,10 @@
     android:layout_marginRight="10dp"
     android:orientation="horizontal">
 
-
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_below="@id/tvProgressPercentage"
         app:cardCornerRadius="8dp"
         app:cardMaxElevation="8dp"
         app:cardBackgroundColor="#ECECEC" >

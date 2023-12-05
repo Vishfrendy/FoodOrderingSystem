@@ -1,6 +1,5 @@
 package com.example.mycanteen;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
@@ -9,12 +8,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import androidx.appcompat.app.AppCompatActivity;
-
-import java.sql.Connection;
-
-import static com.example.mycanteen.Adapters.MainAdapter.orderid;
 import static com.example.mycanteen.MainActivity2.EMAIL;
 
 public class accountJava extends AppCompatActivity {

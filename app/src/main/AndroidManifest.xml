@@ -27,6 +27,12 @@
         <activity android:name=".accountJava"></activity>
         <activity android:name=".cartJava"></activity>
         <activity android:name=".MainActivity"></activity>
+        <activity android:name=".Admin"></activity>
+        <activity android:name=".AdminLogin"></activity>
+        <activity android:name=".AdminSignup"></activity>
+        <activity android:name=".AdminHomepage"></activity>
+        <activity android:name=".FoodProgress"></activity>
+        <activity android:name=".FoodProgressActivity"></activity>
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
